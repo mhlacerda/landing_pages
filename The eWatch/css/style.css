@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 900
+.playfair-display-<uniquifier> {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+:root{
+  --titulo: "Playfair Display", serif;
+  --texto: "Work Sans", sans-serif;
+
+  --corTitulo: #050505;
+  --corTexto: #333333;
+  --corTextocaixa: #111111;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  width: 100%;
+  margin: auto;
+  padding: 4rem 4.18rem 4rem 3.75rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+.informacoes{
+  display: flex;
+  flex-direction: column;
+  gap: 3.4375rem;
+}
+.circulo{
+  width: 6.3125rem;
+}
+.texto{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+  padding-left: 1.5rem;
+}
+.titulo{
+  font-family: var(--titulo);
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--corTitulo);
+}
+.paragrafo{
+  font-family: var(--texto);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--corTexto);
+}
+.botoes{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.preto{
+  font-family: var(--texto);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: white;
+  background-color: var(--corTitulo);
+  border-radius: 16px;
+  padding: 24px 48px;
+}
+.branco{
+  font-family: var(--texto);
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--corTexto);
+  border: 1px solid var(--corTexto);
+  border-radius: 16px;
+  padding: 24px 48px;
+}
+
+
+.icones{
+  display: flex;
+  padding: 1.5rem;
+  gap: 5rem;
+  border: 1px solid var(--corTextocaixa);
+  border-radius: 24px;
+}
+.texto_icone{
+  font-family: var(--texto);
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--corTextocaixa);
+}
+.icone_quadrado{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: flex-start;
+  
+}
+.imagem_icone{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+
+.relogio{
+  width: 39.687rem; 
+  height: 48,625rem;
+}
