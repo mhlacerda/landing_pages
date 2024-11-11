@@ -1,22 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <title>Landing Pages</title>
 </head>
-<body>
-  <h1>Meus exercicios para praticar programação</h1>
+ 
+  <body>
+  
+    <header>
+  
+      <img class="imagem-circulo"  src="images/imagem_circulo_claro.svg" alt="imagem de um circulo com um asterisco dentro">
+     
+    </header>
+  
+    <main>
+      <h1 class="titulo_intro">Landing Pages</h1>
 
-  <a href="The eWatch/index.html" target="_blank">THE eWatch</a>
-  <p>Criada através do layout <a href="https://www.figma.com/design/4WUZJIemdLoGpskTNzqY7E/50%2B-Landing-page-designs-(Community)?m=auto&t=VnxlHb5dJ4w7DCEK-6" target="_blank">gratuito do Figma</a></p>
-
-  <a href="CodeCademy_TeaCozy/index.html" target="_blank">The Tea Cozy</a>
-  <p>Criada através do layout <a href="CodeCademy_TeaCozy/img-tea-cozy-redline.jpg" target="_blank">fornecido na aula</a></p>
-
-
-
-
-
-</body>
-</html>
+      <section class="cards">
+        <div class="card_projeto">
+          <img class="imagem_projeto" src="The eWatch/Template.jpg" alt="imagem">
+          <h3 class="titulo3">The eWatch</h3>
+          <p class="paragrafo">Criada através do layout <a class="paragrafo" href="https://www.figma.com/design/4WUZJIemdLoGpskTNzqY7E/50%2B-Landing-page-designs-(Community)?m=auto&t=VnxlHb5dJ4w7DCEK-6" target="_blank">gratuito do <span>Figma</span></a></p>
+          <a class="link_projeto" href="The eWatch/index.html" target="_blank">* Veja aqui *</a>
+        </div>
+      
+  
+        <div class="card_projeto">
+          <img class="imagem_projeto" src="CodeCademy_TeaCozy/crop_teacozy.png" alt="imagem">
+          <h3 class="titulo3">The Tea Cozy</h3>
+          <p class="paragrafo">Criada através do<a class="paragrafo" href="CodeCademy_TeaCozy/img-tea-cozy-redline.jpg" target="_blank"> <span> layout fornecido na aula</span></a></p>
+          <a class="link_projeto" href="CodeCademy_TeaCozy/index.html" target="_blank">* Veja aqui *</a>
+              
+        </div>
+      </section>	
+    </main>
+  
+  
+  <hr>
+  
+  <footer class="footer">
+    <div class="rodape">
+      <h3 class="titulo3">Telefone</h3>
+      <a class="paragrafo rodape-telefone" href="https://wa.me/qr/5JIPKNEACTDIM1">(11) 99642-0730</a>
+    </div>
+    <div class="rodape">
+      <h3 class="titulo3">E-mail</h3>
+      <a class="paragrafo rodape-email" href="mailto:manuelahlacerda@gmail.com">manuelahlacerda@gmail.com</a>
+    </div>
+    <div class="rodape">
+      <p class="paragrafo">@ 2024 Por Manuela Lacerda</p>
+    </div>
+  
+  </footer>
+  
+  <script>
+      
+    function clickMenu() {
+      if (itensMenu.style.display == "block") {
+        itensMenu.style.display = "none";
+      } else {
+        itensMenu.style.display = "block";
+      }
+    }
+    
+    function telaMaior(){
+      if(window.innerWidth >= 768) {
+        itensMenu.style.display = "flex";
+      } else {
+        itensMenu.style.display = "none";
+      }
+      }
+  
+  </script>
+  
+  </body>
+  </html>
