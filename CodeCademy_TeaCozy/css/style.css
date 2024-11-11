@@ -43,7 +43,7 @@ body {
 
 
 .missao{
-  background-image: url(/images/img-mission-background.jpg);
+  background-image: url(../images/img-mission-background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +85,7 @@ img{
 
 
 .local{
-  background-image: url(/images/img-locations-background.jpg);
+  background-image: url(../images/img-locations-background.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   height: 550px;
