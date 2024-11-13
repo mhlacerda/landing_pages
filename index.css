@@ -5,9 +5,8 @@
 @media only screen and (max-width: 767px){
   body{
     position: relative;
-    background-image: none;
     background-color: var(--cor-fundo2);
-    background-image: url("../images/fundo_transparente.png");
+    background-image: url("images/fundo_transparente.png");
   }
 
 
@@ -16,7 +15,7 @@
     background-image: none;
     background-color: var(--cor-fundo2);
     z-index: 1;
-    background-image: url("../images/fundo_transparente.png");
+    background-image: url("images/fundo_transparente.png");
   }
   .imagem-circulo{
     display: block;
