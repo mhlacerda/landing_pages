@@ -22,7 +22,7 @@ body{
   position: absolute;
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
-  background-image: url("/images/fundo_transparente.png");
+  background-image: url("../images/fundo_transparente.png");
   width: 100%;
 }
 
